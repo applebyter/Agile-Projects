@@ -24,7 +24,7 @@ public class CreateClassServlet extends HttpServlet {
         	numericYear = Integer.parseInt(year);
         }
         catch (NumberFormatException e) {
-        	numericYear = -1;
+        	numericYear = 0;
         }
         try {
         	numericSemester = Integer.parseInt(semester);
